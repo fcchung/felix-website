@@ -1,0 +1,36 @@
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+}
+h1 {
+  padding-top: 10%;
+}
+
+img {
+  display: flex;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  float: right;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  justify-content: flex-end;
+}
+
+.edicationContainer{
+  
+}
+
+.program {
+  font-size: 4 vw;
+}
