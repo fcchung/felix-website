@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Felix Chung's personal and professional Webpage"
+    />
+    <meta name="author" content="Felix Chung" />
+    <meta name="keywords" content="Felix Chung" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="images/icon.png" />
+
+    <!-- Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <!-- Main css-->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!--Navivation Bar styles-->
+    <link rel="stylesheet" type="text/css" href="styles/navBarStyle.css" />
+
+    <!-- Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/566e306229.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Jquery-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <!--Bootstrap Script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Felix Cedric Chung's Webpage</title>
+  </head>
+
+  <body>
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("navigation.html");
+      });
+    </script>
+    <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+      <section class="section1">
+        <div class="bg-image portrait">
+          <span
+            role="img"
+            aria-label="A portrait of Felix in the background"
+          ></span>
+          <div class="h1container">
+            <h1>
+              Felix Chung <br />
+              M.S. Computer Science Student <br />
+              Northeastern Universty
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      <section class="section2" id="aboutMe">
+        <div class="aboutMeContainer row">
+          <div class="half-bg-image selfimage col">
+            <div class="imgContainer"></div>
+            <span role="img" aria-label="A portrait of Felix"></span>
+          </div>
+          <div class="aboutMeText col">
+            <h2>About Me</h2>
+            <p>
+              I am currently in a Master’s program in Computer Science at
+              Northeastern University. Prior to enrolling in this program, I
+              studied finance and marketing and interned at a private equity
+              startup. While I enjoy analyzing businesses in different
+              industries, I have realized that my strengths lie in solving
+              business problems with a technical approach. As an analyst, I
+              developed a variety of skills necessary for success in the field
+              of Computer Science including analytical skills to understand and
+              develop solutions to problems, and strong communication skills to
+              exchange ideas and solutions to team members and clients.
+            </p>
+            <p>
+              In my MSCS program, I have programmed in Python, Java, and C. I
+              also had experience in analyzing big data with R. I enjoy solving
+              complicated problems with people from different backgrounds. As a
+              strategic analyst, I also love to analyze different problems and
+              create different ways to approach and solve difficult business
+              problems. I believe that my experience as an analyst, in
+              conjunction with the skills I am developing in my master's
+              program, will make me a fit for roles in software engineering,
+              research and data science. My current goal is to gain practical
+              experience through co-op/internships and knowledge in machine
+              learning and artificial intelligence as I progress through the
+              master’s in computer science program.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contactSection" id="contact">
+        <div class="row">
+          <div class="contactContainer col-md-4 col-sm-12">
+            <h2>Contact Info</h2>
+            <div class="contactInfoContainer">
+              <address>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <a>San Francisco, CA</a>
+                </p>
+                <p>
+                  <a href="mailto:fcchungg@gmail.com"
+                    ><i class="fas fa-envelope"> </i> fcchungg@gmail.com</a
+                  >
+                </p>
+              </address>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="scripts/scroll.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
