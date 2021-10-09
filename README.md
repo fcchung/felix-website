@@ -7,7 +7,7 @@ The should should show no error in the [W3C Compliant](https://validator.w3.org/
 It should have at least two pages with different URL.
 It should have a least one Javascript feature with more than 5 lines written by myself.
 
-Link to the home page
+ [Link to homepage](https://fcchung.github.io/felix-website/index.html)
 
 ![Home page of website](images/homepage.png)
 
@@ -25,5 +25,4 @@ Link to the home page
 - Contact tab will take user to the homepage contact section.
 
 
-## [Link to homepage](https://fcchung.github.io/felix-website/index.html)
 ## [Video Demostration] ()
