@@ -25,5 +25,5 @@ It should have a least one Javascript feature with more than 5 lines written by 
 - The academic tab will take the user to the academic.html page which includes academic information
 - Contact tab will take user to the homepage contact section.
 
-## [Video Demostration](video/introduction.mp4)
+## [Video Demostration](video/Introduction.mp4)
 
