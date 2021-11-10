@@ -11,6 +11,7 @@ It should have a least one Javascript feature with more than 5 lines written by 
 
 ![Home page of website](images/homepage.png)
 
+
 ## Tech requirements
 
 - The home page should be able to opeb on most browser
@@ -24,5 +25,5 @@ It should have a least one Javascript feature with more than 5 lines written by 
 - The academic tab will take the user to the academic.html page which includes academic information
 - Contact tab will take user to the homepage contact section.
 
+## [Video Demostration](video/Introduction.mp4)
 
-## [Video Demostration] ()
