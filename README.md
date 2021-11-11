@@ -27,3 +27,9 @@ It should have a least one Javascript feature with more than 5 lines written by 
 
 ## [Video Demostration](video/Introduction.mp4)
 
+<!-- From Nathaniel: Here is my code review -->
+<!-- I really like the transition when scrolling from the first section of the home page to the second section (about me) of the home page. -->
+<!-- The background of the first section fading in and out and having the fixed image in the second section is a great interface for starting your webpage. -->
+<!-- When navigating through your pages it does get confusing from time when I think the About Me link takes me to a different page. A suggestion could be to --> 
+<!-- have a dropdown in the Home link where you have the About Me link appearing below the Home link (in the navigation bar).
+<!-- I really liked how you implemented the reusability of your navigation element for your pages.  
